@@ -9,9 +9,11 @@ Implementation accompanying the [https://israel-adewuyi.github.io/blog/2025/ner_
 `data/conll` - dataset downloaded from [https://github.com/ShannonAI/mrc-for-flat-nested-ner](here)
 
 ### Template .env file
-`CUDA_VISIBLE_DEVICES=cuda_device_id`
-`WANDB_API_KEY=your_api_key`
-`WANDB_PROJECT=your_project_name`
+```
+CUDA_VISIBLE_DEVICES=cuda_device_id
+WANDB_API_KEY=your_api_key
+WANDB_PROJECT=your_project_name
+```
 
 ## To run
 - Clone the repo and cd into it
