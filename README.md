@@ -1,12 +1,12 @@
 # Reinforcement Learning meets NER
-Implementation accompanying the [https://israel-adewuyi.github.io/blog/2025/ner_with_rl/](blogpost)
+Implementation accompanying the [blogpost](https://israel-adewuyi.github.io/blog/2025/ner_with_rl/)
 
 ## Repository structure
 `utils.py` - Few shot examples from Deepseek, for each entity in CoNLL-2003
 `train.py` - training pipeline
 `rewards.py` - verifiers to assign rewards to generations from the model
 `eval.py` - script to exaluate the model
-`data/conll` - dataset downloaded from [https://github.com/ShannonAI/mrc-for-flat-nested-ner](here)
+`data/conll` - dataset downloaded from [here](https://github.com/ShannonAI/mrc-for-flat-nested-ner)
 
 ### Template .env file
 ```
